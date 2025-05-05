@@ -72,7 +72,7 @@ public:
 class Solitaire : public Deck {
 public:
     Solitaire() {
-        cards = createShuffledDeck().getCards();  // ✅ Виправлено
+        cards = createShuffledDeck().getCards(); 
     }
 
     void play() {
